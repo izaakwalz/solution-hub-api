@@ -1,5 +1,3 @@
-'strict';
-
 /**
  * @function asyncHandler
  * @param {*} func - the express route handler function
