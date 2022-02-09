@@ -9,11 +9,11 @@ const config = {
     },
     development: {
         PORT: process.env.PORT || 4000,
-        MONGODB_URI: 'mongodb://localhost:27017/solution_hub_dev',
+        MONGODB_URI: 'mongodb://localhost:27017/hub_dev',
     },
     test: {
         PORT: 9000,
-        MONGODB_URI: 'mongodb://localhost:27017/solution_hub_test',
+        MONGODB_URI: 'mongodb://localhost:27017/hub_test',
     },
 };
 
